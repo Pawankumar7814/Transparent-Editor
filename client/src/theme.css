@@ -1,0 +1,128 @@
+body[data-theme="light"] {
+  color: #17202b;
+  background: #f4f7fa;
+}
+
+body[data-theme="light"] .app,
+body[data-theme="light"] .auth {
+  background: #f4f7fa;
+  color: #17202b;
+}
+
+body[data-theme="light"] header,
+body[data-theme="light"] aside {
+  border-color: #d7dee7;
+}
+
+body[data-theme="light"] .auth {
+  background: radial-gradient(circle at 50% 0, #d9f1ed, #f4f7fa 55%);
+}
+
+body[data-theme="light"] .auth-card,
+body[data-theme="light"] .editor textarea,
+body[data-theme="light"] .admin-sheet-link,
+body[data-theme="light"] .sheet-modal {
+  background: #fff;
+  border-color: #cbd5e1;
+  color: #17202b;
+}
+
+body[data-theme="light"] .title,
+body[data-theme="light"] .sheet-modal h2,
+body[data-theme="light"] .brand,
+body[data-theme="light"] .welcome h1 {
+  color: #17202b;
+}
+
+body[data-theme="light"] .editor textarea,
+body[data-theme="light"] .auth-card input {
+  color: #17202b;
+}
+
+body[data-theme="light"] .account,
+body[data-theme="light"] .side-title,
+body[data-theme="light"] .sheet-item,
+body[data-theme="light"] .auth-card label,
+body[data-theme="light"] .admin-row {
+  color: #435266;
+}
+
+body[data-theme="light"] .sheet-item:hover,
+body[data-theme="light"] .sheet-item.selected,
+body[data-theme="light"] .admin-head {
+  background: #e2eeeB;
+  color: #17202b;
+}
+
+body[data-theme="light"] .admin-table {
+  border-color: #cbd5e1;
+}
+
+body[data-theme="light"] .admin-row {
+  border-color: #d7dee7;
+}
+
+body[data-theme="light"] .admin-sheet-link:hover {
+  background: #e2eeeb;
+}
+
+body[data-theme="light"] .muted,
+body[data-theme="light"] .admin-sheet-link small {
+  color: #607086;
+}
+
+body[data-theme="light"] .error {
+  color: #a52b35;
+  background: #fee2e2;
+}
+
+body[data-theme="light"] .primary {
+  color: #10221e;
+}
+
+body[data-theme="light"] .sheet-modal pre {
+  color: #263548;
+}
+
+body[data-theme="light"] .theme-toggle,
+body[data-theme="light"] .back-button {
+  border-color: #94a3b8;
+  color: #17202b;
+}
+
+.theme-toggle,
+.back-button {
+  border: 1px solid #526075;
+  border-radius: 6px;
+  padding: 8px 12px;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+}
+
+.back-button {
+  margin-bottom: 20px;
+}
+
+.admin-sheet-list {
+  margin-top: 28px;
+}
+
+.admin-sheet-link {
+  display: block;
+  width: 100%;
+  margin: 8px 0;
+  padding: 14px;
+  text-align: left;
+  border: 1px solid #303a49;
+  border-radius: 7px;
+  background: #141a24;
+  color: #d9e1ee;
+  cursor: pointer;
+}
+
+.admin-sheet-link small {
+  display: block;
+  margin-top: 6px;
+  color: #8490a5;
+}
